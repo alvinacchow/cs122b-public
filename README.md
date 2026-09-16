@@ -1,12 +1,10 @@
 # CS 122B Project
-## Note
-This project was completed as part of the CS122B curriculum. Due to academic integrity policies, the source code has been privatized. However, this README outlines the project's key features and provides resources to demonstrate the work completed without disclosing the actual code.
-
 ## Demonstration Video
 - View our Project 1 demo video [here](https://youtu.be/TvtxoV1eB0g?si=cLpc9WOZtdkrfKxI)!
 - View our Project 2 demo video [here](https://youtu.be/Nz1hB6cDofU)!
 - View our Project 3 demo video [here](https://youtu.be/y5Mzh97RfAo)!
 - View our Project 4 demo video [here](https://youtu.be/x8cMemdDHQE?si=DMM8HqwN2dELDZW_)!
+- View our Project 5 demo video [here](https://www.youtube.com/watch?v=dHjrsxWqorA)!
 
 ## General
 - Team Ube
@@ -116,3 +114,19 @@ This project was completed as part of the CS122B curriculum. Due to academic int
   - src/UpdateSecurePassword.java
 - Read/Write Requests to Master/Slave SQL 
   - Requests to write data are directed to the master database, which ensures that any changes are accurately copied to the slave database. On the other hand, when retrieving data, requests can be sent to either the master or slave databases. This distribution of requests helps balance the workload on the master database and enables efficient handling of read operations. 
+
+### Project 5
+#### Joint Efforts
+- Measured the performance of Fabflix using Jmeter
+#### Alvina Chow
+- Set up K8s cluster on AWS
+- Deployed Fabflix to a K8s cluster 
+#### Jenny Phan
+- Ran the Fabflix application in a Docker container
+#### Project 5 Miscellaneous 
+##### 3 Worker Nodes & 2 Fabflix Pods
+![2 fabflix pods](two-pods.png)
+##### 4 Worker Nodes & 3 Fabflix Pods
+![3 fabflix pods](three-pods.png)
+
+#### Congratulations on completing CS122B!
